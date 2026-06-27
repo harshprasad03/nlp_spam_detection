@@ -1,0 +1,28 @@
+{
+    "dataset_shape": [
+        5163,
+        6
+    ],
+    "features": [
+        "label",
+        "text",
+        "char_count",
+        "word_count",
+        "clean_text",
+        "target"
+    ],
+    "random_state": 42,
+    "split_ratio": {
+        "train": 0.7,
+        "validation": 0.15,
+        "test": 0.15
+    },
+    "preprocessing": [
+        "lowercase",
+        "url_removal",
+        "number_removal",
+        "punctuation_removal",
+        "stopword_removal",
+        "lemmatization"
+    ]
+}
